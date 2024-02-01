@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationIcon>icona.ico</ApplicationIcon>
+    <Version>1.0.2</Version>
+    <Company>twitch.tv/Err0rCZE</Company>
+    <Authors>twitch.tv/Err0rCZE</Authors>
+    <PackageProjectUrl>https://www.twitch.tv/err0rcze</PackageProjectUrl>
+    <PackageIcon>icona.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="icona.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\Desktop\icona.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.9.1" />
+    <PackageReference Include="Smdn.TPSmartHomeDevices.Tapo" Version="2.0.0" />
+  </ItemGroup>
+
+</Project>
